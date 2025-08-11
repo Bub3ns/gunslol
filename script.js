@@ -8,7 +8,7 @@ function initMedia() {
     console.error("Media elements not found");
     return;
   }
-  backgroundMusic.volume = 0.3;
+  backgroundMusic.volume = 0.4;
   backgroundVideo.muted = true; 
 
   
@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  const name = "JAQLIV";
+  const name = "IOUKAI";
   let nameText = '';
   let nameIndex = 0;
   let isNameDeleting = false;
@@ -235,10 +235,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }, 500);
 
 
-  const bioMessages = [
-    "Fu*k Guns.lol & Fakecrime.bio got banned too often, so I created my own.",
-    "\"Hello, World!\""
-  ];
+const bioMessages = [
+  "DDoS Mafia Member",
+  "HelloWorld(\"Print\")"
+];
+
   let bioText = '';
   let bioIndex = 0;
   let bioMessageIndex = 0;
